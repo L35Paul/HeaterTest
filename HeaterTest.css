@@ -1,0 +1,106 @@
+QPushButton#blue {
+    color: #015CAA;
+    background: red;
+}
+
+QGroupBox[class='keypad_bkgnd']{
+    background-color: #DAEEFF;
+}
+
+QPushButton[class="keybd_btn"] {
+    color: white;
+    background: #015CAA;
+    border: 3px solid #015CAA;
+    border-top-color:  qlineargradient(x1:0, y1:0, x2:0, y2:1, stop: 0 #015CAA, stop: 1 white);
+    border-radius: 4px;
+    font-family: Arial ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+QPushButton[class="keypad_btn"] {
+    color: white;
+    background: #015CAA;
+    border: 3px solid #015CAA;
+    border-top-color:  qlineargradient(x1:0, y1:0, x2:0, y2:1, stop: 0 #015CAA, stop: 1 white);
+    border-radius: 4px;
+    font-family: Arial ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+QPushButton[class="blue_btn"] {
+    color: white;
+    background: #116466;
+    border: 2px solid #2C3531;
+    border-top-color:  qlineargradient(x1:0, y1:0, x2:0, y2:1, stop: 0 #116466, stop: 1 white);
+    border-radius: 4px;
+    font-family: Arial ;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+QLabel[class='temp_units'] {
+    color: red;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+QLabel[class='msg_label']{
+    color: darkred;
+    font-family: Arial ;
+    font-size: 14px;
+    font-style: normal;
+    qproperty-alignment: AlignCenter;
+}
+
+
+QLabel[class='H1']{
+    color: #015DAA;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+QLabel[class='H2'] {
+    color : #015DAA;
+    qproperty-alignment: AlignCenter;
+}
+
+QLabel[class='H3'] {
+    color: #015DAA;
+    qproperty-alignment: AlignRight;
+}
+
+QLabel[class='arrow']{
+    color: #015CAA;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+QFrame[class='frame']{
+    color: #015CAA;
+}
+
+QLCDNumber[class='lcd'] {
+    color: #116466;
+    background-color: #D1E8E2;
+}
+
+QLCDNumber[class='lcd_disabled']{
+    color: #015DAA;
+    background-color: silver;
+
+}
+
+QMainWindow[class='main_window']{
+    background-color: #FFCB9A;
+}
+
+QDial[class='dial']{
+     background-color: #2C3531;
+}
